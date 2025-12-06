@@ -1,0 +1,27 @@
+echo "# asdasd" >> README.md
+
+git init
+
+touch README.md
+git add README.md
+
+git commit -m "first commit"
+
+git add .
+
+git branch -M main
+
+--push - publicar
+git remote add origin https://github.com/seu link
+
+git push -u origin main
+
+git status
+
+git add .
+
+git commit -m 'teste-comando-editado'
+
+git remote add origin https://github.com/Seu Link
+
+rm -rf .git
